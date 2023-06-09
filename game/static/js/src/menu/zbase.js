@@ -21,7 +21,7 @@ class AcGameMenu {
         `);
 
         // 先关闭menu界面
-        // this.$menu.hide();
+        this.$menu.hide();
         // jquery方法，将menu放到web.html的div中
         this.root.$ac_game.append(this.$menu);
         // find可以找到class名字对应的对象
