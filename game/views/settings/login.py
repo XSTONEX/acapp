@@ -15,3 +15,6 @@ def signin(request):
     return JsonResponse({
         'result': "success"
     })
+
+
+
